@@ -1,17 +1,17 @@
 #!/bin/bash
-# run_farm.sh - Orchestrates the farm automation workflow
+# Orchestrates farm automation workflow
 
-echo "[Farm Script] Starting farm automation workflow..."
+echo "[Farm Script] Starting workflow..."
 
-# Step 1: Run Python LiDAR interface
-echo "[Farm Script] Running LiDAR scan..."
+# Step 1: LiDAR scan
+echo "[Farm Script] Running Velodyne LiDAR scan..."
 python3 src/lidar_interface.py
 
-# Step 2: Build and run C++ motor control
+# Step 2: Compile and run C++ motor control
 echo "[Farm Script] Compiling motor control..."
 make
 
-echo "[Farm Script] Running motor movement..."
+echo "[Farm Script] Running full grid scan..."
 ./test_motor
 
 # Step 3: Run cloud ML analysis
