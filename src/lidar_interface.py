@@ -4,7 +4,7 @@ class LidarInterface:
 
     def scan(self):
         print("[LiDAR] Scanning...")
-        # Example: Return dummy data
+        # Return data
         return {"distance": 1.5, "unit": "meters"}
 
 if __name__ == "__main__":
