@@ -10,7 +10,7 @@ It is designed to fully cover a **182.88 cm × 121.92 cm aquaponic bed** in a se
 ![Aquaponic Farmbed Layout](assets/aquaponic_farmbed_layout.png)
 *Layout of the aquaponic bed and motor coverage grid.*
 
-![Raspberry Pi + Arduino Architecture](assets/raspberrypi_arduino_architecture.png)
+![Raspberry Pi + Arduino Architecture](assets/embedded_system_overview.png)
 *General embedded system architecture for motor and sensor control.*
 
 ---
